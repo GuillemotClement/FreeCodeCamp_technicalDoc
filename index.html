@@ -8,10 +8,11 @@
     <title>Technical Doc | FreeCodeCamp</title>
 </head>
 <body>
-    <div id="menuNav">
+    
         <!-- Contient la barre de navigation -->
         <nav id="navbar">
             <header>
+                <h1 id="title">JS Documentation</h1>
                 <a href="#introduction" class="nav-link">Introduction</a>
                 <a href="#what_you_should_already_know" class="nav-link">What you should already know</a>
                 <a href="#javascript_and_java" class="nav-link">JavaScript and Java</a>
@@ -20,7 +21,8 @@
                 <a href="#declaring_variables" class="nav-link">Declaring variables</a>
             </header>
         </nav>
-    </div>
+   
+    <div id="principal">
     <main id="main-doc">
         <!-- Contient la documentation technique -->
         <section class="main-section" id="introduction">
@@ -58,7 +60,7 @@
                 <h2>Hello world</h2>
             </header>
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-            <code>function greetMe(yourName) { alert("Hello " + yourName); }</code>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }</code><br>
             <code>greetMe("World");</code>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
         </section>
@@ -86,5 +88,6 @@
             <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
         </section>
     </main>
+    </div>
 </body>
 </html>
